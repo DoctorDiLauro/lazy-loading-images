@@ -5,8 +5,7 @@ window.addEventListener('load', function (e) {
     var imgTag = img.querySelector('img');
 
     imgTag.src = imgTag.dataset.src;
-    imgTag.removeAttribute('hidden') ;
+    imgTag.removeAttribute('hidden');
     img.removeAttribute('hidden');
-
   });
 });
